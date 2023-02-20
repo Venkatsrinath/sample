@@ -1,0 +1,152 @@
+
+#maincontainer{
+    border: 2px solid ;
+    padding: 40px;
+   
+    
+}
+#total{
+    padding-right: 150px;
+    padding-left: 150px;
+    margin: 50px;
+
+}
+@media only screen and (max-width: 600px) {
+    #total {
+        padding-right: 2px;
+        padding-left: 2px;
+        margin:2px;
+    }
+    #maincontainer{
+        padding: 2px;
+    }
+  }
+  
+
+#container{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+hr{
+    height: 1px;
+    background-color: black;
+    width: 100%;
+}
+#container5{
+    display: flex;
+    flex-direction: column;
+}
+.style{
+    color: blue;
+}
+.four{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.row{
+    flex-direction: column;
+}
+.align{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.alignment{
+    display:flex;
+    justify-content: space-between;
+}
+.style1{
+    height: 1px;
+    background-color:black;
+    width: 100%;
+}
+.alignment1{
+    display: flex;
+    flex-direction:column;
+  
+}
+.alignment2{
+    display: flex;
+    flex-direction: column;
+   
+}
+.mainalign{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.align3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.margin{
+    margin-bottom: 2px;
+    margin-top: 8px;
+}
+.link{
+    padding:1px;
+}
+.font{
+    font-size: 18px;
+}
+/* .copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed; */
+    /* height: 100px;
+    width:100px;
+    background-color: #3333;
+/* } */ */ */
+
+.margin2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.padding{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.margin3{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+header{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* font-size: x-large;
+    position: fixed; */
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-color: teal;
+    font-size: 24px;
+    position: fixed;
+    margin-bottom: 40px;
+    top: 0;
+    /* margin-top: 20px; */
+
+
+}
+.footer{
+    text-align: center;
+  
+
+    width: 100%;  
+    padding: 20px;
+   left: 0;
+    height: 10px;
+    background-color: teal;
+    font-size: 24px;
+    position: fixed;
+   bottom:0;
+} 
